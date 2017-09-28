@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>中文在线拼音输入 - Chinese Pinyin Input Online</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
+<script type="text/javascript" src="imedata.js"></script>
+<script type="text/javascript" src="webpinyin.js"></script>
+<meta http-equiv="cache-control" content="private" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta name="ROBOTS" content="NOINDEX,NOFOLLOW" />
+</head>
+<body id="body" onload="BodyOnLoad();">
+
+
+    <div class="row">
+    
+        <div class="col-md-4 col-md-offset-3">
+            <h2 class="text-center">中文在线拼音输入</h2>
+            <form action="post" autocomplete="off">
+                <div class="container-fluid" id="layoutTable">
+                    <div class="form-group" id="layoutTableInputCell">
+                        <span id="PageIndicator" style="float: right"></span>
+                        <input type="text" class="form-control" name="Comp" id="Comp">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="InputArea" rows="7" class="form-control" style="font-size: 18px" onkeydown="return ImeKeyDown(event)" onkeypress="return ImeKeyPress(event)" onkeyup="return ImeKeyUp(event)"></textarea>
+                    </div>
+                
+                    <div class="form-group">
+                        <input name="EnglishMode" id="EnglishMode" type="checkbox" onmouseup="focusInput()" /> English Mode <span class="optiontext">(Ctrl-Space / F12)</span>
+                    </div>
+
+                    <div class="form-group">
+                        <button id="ButtonSelectAll" type="button" onmouseup="SelectAll()"> Select All</button>
+                        <button id="ButtonClear" type="button" onmouseup="ClearAll()"> Clear</button>
+                    </div>
+                    
+                </div>
+            
+            
+            </form>
+        
+        </div>
+        
+        <div class="col-md-3">
+            <h2></h2>
+            <div id="Cand"></div>
+        </div>
+        
+    </div>
+
+
+
+</body>
+</html>
