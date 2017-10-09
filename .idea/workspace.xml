@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7f7eab5-071e-43aa-a19d-5d9069e82d13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpinyin.html" afterPath="$PROJECT_DIR$/webpinyin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpinyin.js" afterPath="$PROJECT_DIR$/webpinyin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpinyin.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpinyin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpinyin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -42,6 +41,19 @@
                 <marker date="1507557220926" expanded="true" signature="2263:2269" ph="&amp;nbsp;" />
                 <marker date="1507557220926" expanded="true" signature="2269:2275" ph="&amp;nbsp;" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -67,6 +79,7 @@
       <list>
         <option value="$PROJECT_DIR$/webpinyin.html" />
         <option value="$PROJECT_DIR$/webpinyin.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -469,12 +482,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507556789337</updated>
-      <workItem from="1507556791485" duration="430000" />
+      <workItem from="1507556791485" duration="790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="430000" />
+    <option name="totallyTimeSpent" value="790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="0" width="1920" height="1050" extended-state="6" />
@@ -536,6 +549,17 @@
             <marker date="1507557220926" expanded="true" signature="2263:2269" ph="&amp;nbsp;" />
             <marker date="1507557220926" expanded="true" signature="2269:2275" ph="&amp;nbsp;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
