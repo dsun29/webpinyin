@@ -45,7 +45,8 @@ txbInputArea = null;
 inpComposeInput = null;
 lblCandidates = null;
 ckbEnglishMode = null;
-ckbDoubleWidthMode = null;
+ckbDoubleWidthMode = {};
+ckbDoubleWidthMode.checked = false;
 lblPageIndicator = null;
 lblLinks = null;
 
@@ -644,8 +645,8 @@ function BodyOnLoad() {
 	lblCandidates = document.getElementById("Cand");
 	ckbEnglishMode = document.getElementById("EnglishMode");
 	ckbEnglishMode.onfocus = focusInput;
-	ckbDoubleWidthMode = document.getElementById("DoubleWidth");
-	ckbDoubleWidthMode.onfocus = focusInput;
+	//ckbDoubleWidthMode = document.getElementById("DoubleWidth");
+	//ckbDoubleWidthMode.onfocus = focusInput;
 	lblPageIndicator = document.getElementById("PageIndicator");
 	lblLinks = document.getElementById("Links");
 
